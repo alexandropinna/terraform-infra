@@ -1,5 +1,5 @@
 locals {
-  vnet_name = "nb-fougor-${var.environment}-cace-vnet-01"
+  vnet_name = "${var.project}-${var.environment}-cace-vnet-01"
 }
 
 module "vnet" {

@@ -3,6 +3,12 @@
 ################################ 
 
 # Variable for the environment of the project
+variable "project" {
+  description = "Project for the Project"
+  type        = string
+  default     = "l2sa7o"
+}
+
 variable "environment" {
   description = "Environment for the Project"
   type        = string

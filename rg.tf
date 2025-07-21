@@ -1,5 +1,5 @@
 locals {
-  rg_net_name = "nb-fougor-${var.environment}-net-rg-01"
+  rg_net_name = "${var.project}-${var.environment}-net-rg-01"
 
 }
 
